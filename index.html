@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>响应式布局</title>
+    <!-- 就近原则 -->
+
+    <!-- animate.css 动画库 -->
+     <link rel="stylesheet" href="./assets/css/animate.min.css" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <!-- 重置的样式文件 -->
+    <link rel="stylesheet/less" href="./assets/css/reset.less" />
+
+    <!-- 本界面的样式文件 -->
+    <link rel="stylesheet/less" href="./assets/css/index.less" />
+
+</head>
+<body>
+    <header class="header navbar navbar-inverse">
+       
+        <div class="container">
+             <!-- logo -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo wow bounceIn" href="#" >Spirit</a>
+            </div>
+      
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           
+           
+            <ul class="nav navbar-nav navbar-right">                                                                                
+                <li class="wow bounceInDown" data-wow-delay="100ms"><a href="#banner">HOME</a></li>
+                <li class="wow bounceInDown" data-wow-delay="150ms"><a href="#about">About</a></li>
+                <li class="wow bounceInDown" data-wow-delay="200ms"><a href="#services">SERVICES</a></li>
+                <li class="wow bounceInDown" data-wow-delay="250ms"><a href="#some">portfolio</a></li>
+                <li class="wow bounceInDown" data-wow-delay="300ms"><a href="#work">testimonials</a></li>
+                <li class="wow bounceInDown" data-wow-delay="350ms"><a href="#clients">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="banner" id="banner">
+        <div class="title wow bounceInDown" data-wow-delay="100ms">wELCOME on <span>spirit8</span></div>
+        <div class="desc wow bounceInDown" data-wow-delay="200ms">We are a digital agency with <span>years of experience</span> and with <span>extraordinary people</span></div>
+        <a class="more wow bounceInDown" data-wow-delay="300ms" href="#contact">↓</a>
+    </div>
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="left wow bounceInDown">
+                <img src="./assets/images/pc.png" alt="">
+            </div>
+            <div class="right">
+                <div class="title">
+                    <div class="top wow bounceInDown" data-wow-delay="100ms">About Us</div>
+                    <div class="bottom wow bounceInDown" data-wow-delay="150ms"> <span>SOME WORLDS</span> <span>About us</span></div>
+                </div>
+
+                <div class="content wow bounceInDown" data-wow-delay="200ms">
+                    We love building and rebuilding brands through our  specific skills. Using colour, 
+                    fonts, and illustration, we brand companies in a way they will never forget.
+                </div>
+
+                <ul class="list">
+                    <li class="wow bounceInDown" data-wow-delay="250ms">
+                        <span class="glyphicon glyphicon-record" aria-hidden="true"></span>
+                        <span>Mission - </span>
+                        we deliver uniqueness and quality 
+                    </li>
+                    <li class="wow bounceInDown" data-wow-delay="300ms"> 
+                        <span class="glyphicon glyphicon-record" aria-hidden="true"></span>
+                        <span>Skills - </span>
+                        Delivering fast and excellent results
+                    </li>
+                    <li class="wow bounceInDown" data-wow-delay="350ms"> 
+                        <span class="glyphicon glyphicon-record" aria-hidden="true"></span>
+                        <span>Clients - </span>
+                        Satisfied clients thanks to our experience 
+                    </li>
+                </ul>
+
+                <div class="more wow bounceInDown" data-wow-delay="400ms">
+                    <span class="glyphicon glyphicon-folder-close"></span>
+                    <span>Browse our work</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team" id="team">
+        <div class="container">
+            <div class="title wow bounceInDown" data-wow-delay="100ms"><span>MEE</span> TOUR TEAM</div>
+
+            <div class="list ">
+                <div class="item">
+                    <div class="avatar wow bounceInDown" data-wow-delay="150ms">
+                        <img src="./assets/images/cover.png" alt="">
+                    </div>
+                    <div class="box">
+                        <div class="nickname wow bounceInDown" data-wow-delay="200ms">Van Damme</div>
+                        <div class="job wow bounceInDown" data-wow-delay="250ms">No English</div>
+                        <div class="content wow bounceInDown" data-wow-delay="300ms">Do not seek to change what has come before. Seek to create that which has not.</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="avatar wow bounceInDown" data-wow-delay="350ms">
+                        <img src="./assets/images/cover.png" alt="">
+                    </div>
+                    <div class="box">
+                        <div class="nickname wow bounceInDown" data-wow-delay="400ms">Van Damme</div>
+                        <div class="job wow bounceInDown" data-wow-delay="450ms">No English</div>
+                        <div class="content wow bounceInDown" data-wow-delay="500ms">Do not seek to change what has come before. Seek to create that which has not.</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="avatar wow bounceInDown" data-wow-delay="550ms">
+                        <img src="./assets/images/cover.png" alt="">
+                    </div>
+                    <div class="box">
+                        <div class="nickname wow bounceInDown" data-wow-delay="600ms">Van Damme</div>
+                        <div class="job wow bounceInDown" data-wow-delay="650ms">No English</div>
+                        <div class="content wow bounceInDown" data-wow-delay="700ms">Do not seek to change what has come before. Seek to create that which has not.</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="avatar wow bounceInDown" data-wow-delay="750ms">
+                        <img src="./assets/images/cover.png" alt="">
+                    </div>
+                    <div class="box">
+                        <div class="nickname wow bounceInDown" data-wow-delay="800ms">Van Damme</div>
+                        <div class="job wow bounceInDown" data-wow-delay="850ms">No English</div>
+                        <div class="content wow bounceInDown" data-wow-delay="900ms">Do not seek to change what has come before. Seek to create that which has not.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more wow bounceInDown" data-wow-delay="950ms">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="services" id="services">
+        <div class="container">
+            <div class="title wow bounceInDown" data-wow-delay="100ms"><span>TAKE A LOOK AT</span> OUR SERVICES</div>
+            <div class="xiaowen wow bounceInDown" data-wow-delay="150ms">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
+            <div class="list ">
+                <div class="item">
+                    <div class="avatar wow bounceInDown" data-wow-delay="200ms">
+                        <img src="./assets/images/01.png" alt="">
+                    </div>
+                    <div class="box">
+                        <div class="nickname wow bounceInDown" data-wow-delay="250ms">WEB DESIGN</div>
+                        <div class="content wow bounceInDown" data-wow-delay="300ms">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="avatar wow bounceInDown" data-wow-delay="350ms">
+                        <img src="./assets/images/02.png" alt="">
+                    </div>
+                    <div class="box">
+                        <div class="nickname wow bounceInDown" data-wow-delay="400ms">MOBILE APPS</div>
+                        <div class="content wow bounceInDown" data-wow-delay="450ms">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="avatar wow bounceInDown" data-wow-delay="500ms">
+                        <img src="./assets/images/03.png" alt="">
+                    </div>
+                    <div class="box">
+                        <div class="nickname wow bounceInDown" data-wow-delay="550ms">PHOTOGRAPHY</div>
+                        <div class="content wow bounceInDown" data-wow-delay="600ms">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="avatar wow bounceInDown" data-wow-delay="650ms">
+                        <img src="./assets/images/04.png" alt="">
+                    </div>
+                    <div class="box">
+                        <div class="nickname wow bounceInDown" data-wow-delay="700ms">Van Damme</div>
+                       
+                        <div class="content wow bounceInDown" data-wow-delay="750ms">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="some" id="some">
+        <div class="container">
+            <div class="title wow bounceInDown" data-wow-delay="100ms"><span>SOME OF </span> OUR CLIENTS</div>
+            <div class="xiaowen wow bounceInDown" data-wow-delay="150ms"><span class="a">CHANEL </span><span class="b">  ZARA  </span> <span class="c"><span class="d">GUEBLAIN</span>  LANCOME</span> <span class="a">LACOSTE</span></div>
+            <div class="more wow bounceInDown" data-wow-delay="950ms">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>   
+        </div>
+    </div>
+
+    <div class="work" id="work">
+        <div class="container">
+            <div class="title wow bounceInDown" data-wow-delay="100ms">take a look at <span>our work</span></div>
+            
+            <div class="desc wow bounceInDown" data-wow-delay="150ms">
+                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus 
+                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written 
+                in 45 BC. This book is a treatise on the theory of ethics, very popular 
+                during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor 
+                sit amet..", comes from a line in section 1.10.32.
+            </div>
+            
+            <div class="box">
+               <div class="top">
+                    <div class="left wow bounceInDown" data-wow-delay="200ms">Filter by type</div>
+                    <div class="right">
+                        <a class="wow bounceInDown" data-wow-delay="250ms" href="javascript:void(0)">All</a>
+                        <a class="wow bounceInDown" data-wow-delay="300ms" href="javascript:void(0)">Web design</a>
+                        <a class="wow bounceInDown" data-wow-delay="350ms" href="javascript:void(0)">Mobile design</a>
+                        <a class="wow bounceInDown" data-wow-delay="400ms" href="javascript:void(0)">Photograpy</a>
+                    </div>
+                    <select class="menu">
+                        <option>All</option>
+                        <option>Web design</option>
+                        <option>Mobile design</option>
+                        <option>Photograpy</option>
+                    </select>
+               </div> 
+                <div class="list">
+                    <div class="item wow bounceInDown" data-wow-delay="450ms">
+                        <img src="./assets/images/work-img.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="500ms">
+                        <img src="./assets/images/work-img.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="550ms">
+                        <img src="./assets/images/work-img.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="600ms">
+                        <img src="./assets/images/work-img.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="650ms">
+                        <img src="./assets/images/work-img2.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="700ms">
+                        <img src="./assets/images/work-img2.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="750ms">
+                        <img src="./assets/images/work-img2.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="800ms">
+                        <img src="./assets/images/work-img2.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="850ms">
+                        <img src="./assets/images/work-img3.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="900ms">
+                        <img src="./assets/images/work-img3.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="950ms">
+                        <img src="./assets/images/work-img3.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="1000ms">
+                        <img src="./assets/images/work-img3.png" alt="">
+                        <div class="mask">
+                            <div class="name">Trend and fashion</div>
+                            <div class="desc"> Website design</div>
+                            <div class="plus">+</div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clients" id="clients">
+        <div class="container">
+            <div class="title wow bounceInDown" data-wow-delay="100ms"><span>our clients'</span> testimonials</div>
+            
+            <div class="desc wow bounceInDown" data-wow-delay="150ms">
+                This book is a treatise on the theory of ethics, very popular 
+                during the Renaissance. The first line of Lorem Ipsum, "Lorem 
+                ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            </div>
+                
+            <div class="xbt wow bounceInDown" data-wow-delay="200ms">
+                Dean Martin, <span>CEO Acme Inc.</span>
+            </div>
+            <div class="more wow bounceInDown" data-wow-delay="250ms">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>     
+            
+        </div>   
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="title wow bounceInDown" data-wow-delay="100ms">feel free to <span>contact us</span></div>
+
+            <div class="desc wow bounceInDown" data-wow-delay="150ms">
+                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus 
+                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written 
+                in 45 BC. This book is a treatise on the theory of ethics, very popular 
+                during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor 
+                sit amet..", comes from a line in section 1.10.32.
+            </div>
+
+            <div class="box">
+                <div class="info">
+                    <div class="item wow bounceInDown" data-wow-delay="200ms">
+                        <div class="label">Name<sup>*</sup></div>
+                        <input type="text" placeholder="请输入昵称">
+                    </div>
+
+                    <div class="item wow bounceInDown" data-wow-delay="250ms">
+                        <div class="label">Email<sup>*</sup></div>
+                        <input type="email" placeholder="请输入邮箱">
+                    </div>
+                </div>
+
+                <div class="message wow bounceInDown" data-wow-delay="300ms">
+                    <div class="label">message<sup>*</sup></div>
+                    <textarea placeholder="请输入留言内容" rows="8"></textarea>
+                </div>
+
+                <div class="button wow bounceInDown" data-wow-delay="350ms">
+                    <button type="button">send</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright wow bounceInDown" data-wow-delay="100ms">ALL RIGHTS RESERVED. COPYRIGHT © 2014 SPIRIT8</div>
+            <div class="link">
+                <div class="item wow bounceInDown" data-wow-delay="200ms"><img src="./assets/images/footer1.png"></div>
+                <div class="item wow bounceInDown" data-wow-delay="300ms"><img src="./assets/images/footer2.png"></div>
+                <div class="item wow bounceInDown" data-wow-delay="400ms"><img src="./assets/images/footer3.png"></div>
+                <div class="item wow bounceInDown" data-wow-delay="500ms"><img src="./assets/images/footer4.png"></div>
+                <div class="item wow bounceInDown" data-wow-delay="600ms"><img src="./assets/images/footer5.png"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<!-- 底部加载less -->
+ <script src="./assets/js/less.min.js"></script>
+
+ <!-- jquery -->
+<script src="./assets/js/jquery.min.js"></script>
+
+<!-- bootstrap脚本 -->
+<script src="./assets/js/bootstrap.min.js"></script>
+
+<!-- 引入wowjs -->
+ <!-- <script src="./assets/js/wow.min.repeat.js"></script> -->
+ <script src="./assets/js/wow.min.js"></script>
+
+ <script>
+    // 实际化
+    new WOW().init()
+ </script>
